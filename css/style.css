@@ -1,0 +1,55 @@
+body {
+	background-color: #515dbf;
+	margin: 0;
+ font-family: 'Playfair Display', serif;
+ font-size: 14px;
+ color: #fff
+
+
+
+
+}
+*,
+*:before
+*after {
+	box-sizing: border-box;
+}
+
+/*container========
+===========*/
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+/*header========
+===========*/
+.header {
+
+
+}
+/*nav========
+===========*/
+.nav {
+	padding: 10px;
+	font-size: 17px;
+	font-weight: 700px;
+text-transform: uppercase;
+
+}
+.nav__link {
+	text-decoration: none;
+	color: #fff
+
+
+}
+.header__inner {
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #fff
+}
+.nav__link: hover {
+	text-decoration: underline;
+}
