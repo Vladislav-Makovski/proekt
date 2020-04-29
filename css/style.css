@@ -1,13 +1,9 @@
 body {
-	background-color: #515dbf;
+	background-color:#364594 ;
 	margin: 0;
- font-family: 'Playfair Display', serif;
- font-size: 14px;
+ font-family: 'Prata', serif;
+ font-size: 16px;
  color: #fff
-
-
-
-
 }
 *,
 *:before
@@ -34,13 +30,15 @@ body {
 .nav {
 	padding: 10px;
 	font-size: 17px;
-	font-weight: 700px;
+	font-weight: 900px;
 text-transform: uppercase;
+word-spacing: 50px;
 
 }
 .nav__link {
 	text-decoration: none;
 	color: #fff
+	
 
 
 }
@@ -48,8 +46,45 @@ text-transform: uppercase;
 	padding: 15px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid #fff
+	align-items: baseline;
+	border-bottom: 2px solid #fff
+
 }
 .nav__link: hover {
-	text-decoration: underline;
+	
+
 }
+/*intro========
+===========*/
+.intro {
+	height: 1150px;
+background: #4047a7
+url(https://psv4.userapi.com/c856336/u125184439/docs/d9/72730406fdb8/Bez_imeni-1.jpg?extra=K_vsL6wQkgGMaaicuxiP9R5b9g7ZGJKRwVU-YT4dvMkz36yknYv-cTBr5_RQ2xYydciYQ91eZoz0cggbnKouUhgFRmINkunBQy6-FwKQrOl8P28sljXjsym_85zulUY14flmm_DPOFyWwaTzgndJBnSSCWk);
+cenrer no-repeat / cover
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
