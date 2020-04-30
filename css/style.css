@@ -1,73 +1,68 @@
 body {
 	background-color:#364594 ;
 	margin: 0;
- font-family: 'Prata', serif;
+ font-family: 'Playfair Display SC', serif;
  font-size: 16px;
  color: #fff
 }
-*,
-*:before
-*after {
-	box-sizing: border-box;
-}
 
-/*container========
-===========*/
 .container {
 	width: 100%;
 	max-width: 1170px;
 	margin: 0 auto;
-
 }
-/*header========
-===========*/
-.header {
 
-
-}
-/*nav========
-===========*/
 .nav {
-	padding: 10px;
+	padding-right: 4%;
 	font-size: 17px;
 	font-weight: 900px;
 text-transform: uppercase;
 word-spacing: 50px;
-
 }
+
 .nav__link {
 	text-decoration: none;
-	color: #fff
-	
-
-
+	color: #fff	
 }
+
 .header__inner {
 	padding: 15px;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
 	border-bottom: 2px solid #fff
-
 }
-.nav__link: hover {
-	
 
-}
-/*intro========
-===========*/
 .intro {
-	height: 1150px;
+height: 1150px;
+line-height: 2px;
+padding-top: 60px;
+font-size: 20px;
 background: #4047a7
 url(https://psv4.userapi.com/c856336/u125184439/docs/d9/72730406fdb8/Bez_imeni-1.jpg?extra=K_vsL6wQkgGMaaicuxiP9R5b9g7ZGJKRwVU-YT4dvMkz36yknYv-cTBr5_RQ2xYydciYQ91eZoz0cggbnKouUhgFRmINkunBQy6-FwKQrOl8P28sljXjsym_85zulUY14flmm_DPOFyWwaTzgndJBnSSCWk);
 cenrer no-repeat / cover
 }
 
+.intro__title {
+	font-family: 'Pattaya', sans-serif;
+text-align: center;
+}
 
+.intro__subtitle {
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	font-size: 13px;
+}
 
-
-
-
+.button {
+padding-top: 50px;
+padding-bottom: 10px;
+text-align: center;
+}
+.button2 {
+padding-top: 20px;
+text-align: center;
+}
 
 
 
